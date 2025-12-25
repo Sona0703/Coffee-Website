@@ -1,0 +1,525 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Merriweather", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+/* Nav Bar Font */
+@font-face{
+    font-family: myFont;
+    src: url(Love\ Coffee.ttf);
+}
+.navbar-brand{
+    font-family: myFont;
+}
+
+html::-webkit-scrollbar-track{
+    background: transparent;
+}
+html::-webkit-scrollbar-thumb{
+    background: rgb(92, 9, 9);
+    border-radius: 10px;
+}
+html::-webkit-scrollbar{
+    width: 10px;
+}
+
+/* nav bar start */
+#navbar{
+    background-color: burlywood;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+}
+.navbar-nav{
+    text-align: center;
+}
+.bi-cup-hot-fill{
+    font-size: 30px;
+    margin-right: 7px;
+    position: relative;
+    bottom: 3px;
+}
+.bi-list{
+    font-size: 30px;
+}
+.nav-item .nav-link{
+    font-weight: bold;
+    transition: 0.5s;
+}
+.nav-item .nav-link:hover{
+    background: white;
+    color:black;
+    border-radius: 5px;
+}
+/* nav bar search */
+.search{
+    height: 40px;
+    width:83%;
+    border-radius: 60px;
+    outline: none;
+    border: 2px solid black;
+    margin-right:-45px;
+}
+.btn0{
+    height: 40px;
+    width: 40%;
+    outline: none;
+    border: none;
+    background: black;
+    color: white;
+    border-radius: 60px;
+    font-weight: 700;
+}
+/* nav bar end */
+/* home section start */
+#home{
+    width: 100%;
+    height: 98vh;
+    background-image:url(maincoffee1.png);
+    max-width: 100%;
+    background-position: 65%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#home .content{
+    color: white;
+    font-size: 20px;
+    padding-left: 80px;
+    padding-right: 90px;
+    padding-top: 250px;
+}
+#home .content h3{
+    font-family: "Kaushan Script", serif;
+    font-size: 40px;
+}
+#home .content p{
+    font-family: "Poppins", serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-top: 18px;
+}
+#btn{
+    width: 150px;
+    height: 46px;
+    margin-top: 20px;
+    background: white;
+    border-radius: 60px;
+    font-weight: bold;
+    border: none;
+    transition: 0.5 ease;
+    cursor: pointer;
+}
+#btn:hover{
+    background-color: burlywood;
+    color: black;
+}
+/* home section end */
+
+/* about section start */
+#about{
+    font-size: 18px;
+    width: 100%;
+}
+#about .container{
+    margin-top: 50px;
+}
+#about .container .text{
+  margin-top: -40px;
+}
+#about .container .text h3{
+  font-size: 35px;
+  font-family: "Lobster Two", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+#about .container p{
+  font-size: 23px;
+  font-family: "Lobster Two", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.heading{
+    text-align: center;
+    margin-bottom: 50px;
+    color: black;
+    font-size: 35px;
+    font-weight: bold;
+}
+.heading span{
+    font-weight: bolder;
+    color: rgb(201, 152, 87);
+}
+#about .card{
+    border-radius: 20px;
+}
+#about .card img{
+    border-radius: 20px;
+}
+
+#about-btn{
+    width: 200px;
+    height: 36px;
+    background: transparent;
+    border: 2px solid #b27446;
+    color: #b27446;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: 0.5s;
+    cursor: pointer;
+}
+#about-btn:hover{
+    background-color: #b27446;
+    color: white;
+}
+
+/* about section end */
+
+/* top cards start */
+#top-cards{
+  padding-bottom: 40px;
+  margin-bottom: 50px;
+    width: 100%;
+    /* height: 60vh; */
+    background: #f7f5f2;
+}
+.heading2{
+    color: black;
+    text-align: center;
+    padding: 30px;
+    margin-top: 20px;
+    font-size: 30px;
+    font-weight: bold;
+}
+.heading2 span{
+    color: #b27446;
+}
+#top-cards .card{
+    border-radius:10px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+#top-cards .card img{
+    border-radius: 10px;
+}
+#top-cards .card:hover{
+    transform: translateY(-20px);
+}
+/* top cards end */
+
+/* offer section start */
+#offer {
+  background: white;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+#offer .icons{
+  background:rgb(243, 221, 197);
+  border: 5px solid rgba(0, 0, 0, 0.1);
+  padding: 5px ;
+  display: flex;
+  align-items: center;
+  flex: 1 1 25rem;
+}
+#offer .icons img{
+  
+}
+#offer .info span{
+  font-size: 13px;
+}
+#offer h6{
+  font-size: 18px;
+  font-weight: bolder;
+}
+/* offer section end */
+
+/* menu card start */
+#menu{
+    width: 100%;
+    padding-bottom: 30px;
+    margin-top: 60px;
+    margin-bottom: 40px;
+    background-color:rgb(251, 245, 237);
+}
+.heading3{
+    text-align: center;
+    font-size: 30px;
+    color: #b27446;
+    font-weight: bolder;
+    padding-bottom: 5px;
+    border-bottom: 2px solid #b27446;
+}
+#container2{
+    margin-top: 50px;
+}
+#menu h3{
+    text-align: center;
+    color: #b27446;
+    margin-top: 10px;
+    font-weight: bolder;
+    font-size: 20px;
+}
+#menu p{
+    font-size: 20px;
+    font-weight: bold;
+    color: #b27446;
+    padding-top: 10px;
+}
+#menu p span{
+    font-size: 30px;
+    position: relative;
+    bottom: 10px;
+    float: right;
+    cursor: pointer;
+}
+#menu strike{
+    margin-left: 10px;
+}
+#menu .card{
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    transition: 0.3s ease;
+}
+.star{
+    color: #b27446;
+}
+#menu .card img:hover{
+    border-radius: 10px;
+    transform: scale(1.1);
+    cursor: pointer;
+}
+/* menu card end */
+
+/* testimonials start */
+#testimonials{
+    margin-bottom: 50px;
+    background:whitesmoke;
+}
+#testimonials .carousel-indicators{
+    margin-bottom: -30px;
+}
+
+#testimonials .heading5{
+    color: #b27446;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bolder;
+    padding-top: 30px;
+    padding-bottom: 50px;
+    text-decoration: underline;
+    text-underline-offset: 17px;
+}
+
+.bi-quote{
+    font-size: 30px;
+}
+#testimonials .col-lg-4{
+    text-align: center;
+}
+#testimonials .review{
+    color: #b27446;
+}
+
+/* testimonial end */
+
+/* product card start */
+#product .discount{
+    position: relative;
+    top: 10px;
+    left: 20px;
+    width: 50px;
+    border-radius: 5px;
+    background: rgb(253, 240, 224);
+    color: #7b3a08;
+    padding: 2px;
+}
+#product .card{
+    border: none;
+    /* width: 280px; */
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease; /* Add transition for smooth hover effect */
+  }
+  #product .card img{
+    position: relative;
+    top: 30px;
+  }
+  #product .card img:hover{
+    transform: scale(1.1)
+  }
+  #product .card-body{
+    position: relative;
+    bottom: 50px;
+  }
+  #product .card-text {
+    font-size: 16px;
+  }
+  
+  #product .text-danger {
+    color: #dc3545;
+  }
+  
+  #product .card-footer {
+    position: relative;
+    bottom: 60px;
+    opacity: 0; /* Initially hide the footer */
+    transition: opacity 0.2s ease; /* Add transition for smooth opacity change */
+  }
+  
+  #product .card:hover .card-footer {
+    background-color: #b27446;
+    color: white;
+    opacity: 1; /* Show the footer on hover */
+  }
+  #product .icon i{
+    font-size: 25px;
+    cursor: pointer;
+  }
+  #product .heading4{
+    padding-top: 60px;
+    font-size: 30px;
+    color: black;
+    text-align: center;
+    font-weight: bolder;
+  }
+  #product .heading4 span{
+    font-weight: bolder;
+    color: #b27446;
+  }
+  #product{
+    background-color: rgb(255, 255, 255);
+  }
+  /* product card end */
+
+  /* contact start */
+  #contact{
+    width: 100%;
+    height: 100vh;
+    padding-top: 70px;
+  }
+  #contact .heading6{
+    margin-top: 70px;
+    margin-bottom: 25px;
+    font-size: 30px;
+    color: black;
+    font-weight: bolder;
+  }
+  #contact .heading6 span{
+    color: #b27446;
+    font-weight: bolder;
+  }
+  #contact .container{
+    width: 100%;
+    height: 80vh;
+    background: linear-gradient(90deg, white 80%, #b27446 20%);
+    border-radius: 10px;
+  }
+  #contact p{
+    padding-right: 30px;
+    font-weight: bold;
+    font-size: 16px;
+    color: black;
+  }
+  #contact input{
+    width: 360px;
+    border: none;
+    border-bottom: 1px solid #b27446;
+  }
+  #contact-btn{
+    width: 200px;
+    height: 36px;
+    border: none;
+    border-radius: 10px;
+    background: #b27446;
+    color: white;
+    font-weight: bold;
+    margin-top: 30px;
+    cursor: pointer;
+  }
+  #col{
+    width: 40%;
+    height: 65vh;
+    background: black;
+    margin-top: 60px;
+  }
+  #contact h1{
+    color: white;
+    font-size: 25px;
+    margin-top: 10px;
+    margin-left: 10px;
+  }
+  #contact #col p{
+    font-size: 16px;
+    padding: 5px;
+    color: white;
+    margin-left: 13px;
+    margin-top: 20px;
+  }
+  @media screen and (max-width:760px){
+    #contact .container{
+        background: white;
+    }
+    #col{
+        width: 100%;
+        background: #b27446;
+    }
+    #contact{
+        height: 150vh;
+    }
+  }
+  @media screen and (max-width:400px){
+    #contact input{
+        width: 250px;
+    }
+  }
+  #contact #col i{
+    margin-right: 10px;
+  }
+  
+  /* contact end */
+  /* footer start */
+  #footer{
+    width: 100%;
+    font-size: 20px;
+    background:burlywood;
+    margin-top: 50px;
+  }
+  #footer .social-links i{
+    font-size: 17px;
+    margin-left: 10px;
+    margin-top: 30px;
+    padding: 10px;
+    background: black;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  .footer-logo{
+    font-size: 25px;
+    font-family: myFont;
+    padding-top: 30px;
+    padding-bottom: 18px;
+  }
+  .copyright{
+    padding-top: 15px;
+    padding-bottom: 30px;
+  }
+  .credits{
+    margin-top: 20px;
+    text-shadow: 0px 0px 1px #7b3a08;
+  }
+  .copyright span{
+    font-size: larger;
+    color: black;
+    font-weight: bolder;
+  }
+  /* footer end */
+  html{
+    scroll-behavior: smooth;
+  }
+  
+  
